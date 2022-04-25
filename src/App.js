@@ -23,7 +23,7 @@ export default function App() {
 
   const nextSet = (setNum) => {
     setViewData([...data.slice(currSet, setNum)]);
-    setCurrSet(currSet + setNum);
+    setCurrSet(currSet + 5);
   };
   return (
     <div className="App">
